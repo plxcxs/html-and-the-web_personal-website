@@ -32,12 +32,15 @@ nav {
 a {
     color: rgb(96, 143, 143);
 }
+a:hover {
+    color: rgb(219, 9, 238);
+}
 img {
     border-radius: 20px;
 }
 
 img:hover {
-    box-shadow: 5px 5px rgb(10, 232, 58);
+    box-shadow: 5px 5px rgb(10, 184, 232);
     transition: box-shadow 0.25s ease;
 }
 
@@ -45,6 +48,21 @@ article {
     display: flex;
     flex-direction: row;
 }
+article:hover {
+    cursor: crosshair;
+}
 ol {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
     color: rgb(82, 176, 204);
+}
+
+ol:hover {
+    cursor: crosshair;
+}
+li:hover {
+    box-shadow: 0 5px rgb(10, 184, 232);
+    transition: box-shadow 0.2s ease;
 }
