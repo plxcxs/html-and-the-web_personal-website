@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    color: rgb(110, 125, 78);
+    background-color: rgb(64, 77, 80);
+    flex-direction: column;
+}
+
+h1 {
+    align-items: center;
+    color: rgb(120, 160, 168);
+    margin: 10px;
+}
+header {
+    width: 100%;
+    display: flex;
+    background-color: rgb(100, 101, 135);
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+nav {
+    color: rgb(96, 143, 158);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: flex-start;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(165, 190, 167);
+}
+a {
+    color: rgb(96, 143, 143);
+}
+img {
+    border-radius: 20px;
+}
+
+img:hover {
+    box-shadow: 5px 5px rgb(10, 232, 58);
+    transition: box-shadow 0.25s ease;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+}
+ol {
+    color: rgb(82, 176, 204);
+}
