@@ -1,19 +1,25 @@
 body {
+    font-family:
+        "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+        Arial, sans-serif;
     height: 100%;
     display: flex;
-    color: rgb(110, 125, 78);
+    color: rgb(174, 255, 0);
     /* background-color: gradient rgb(64, 77, 80); */
     flex-direction: column;
 
     background: linear-gradient(rgb(0, 170, 255), rgb(98, 0, 255));
 }
 header {
+    box-sizing: border-box;
     width: 100%;
     display: flex;
-    background-color: rgb(100, 101, 135);
+    background-color: rgb(46, 50, 175);
     flex-direction: row;
     justify-content: space-between;
     border-radius: 10px;
+
+    padding-left: 10px;
 }
 
 h1 {
@@ -27,7 +33,30 @@ h2 {
 h3 {
     color: black;
 }
-
+aside {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+.piggyText {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+.powerfulPiggy {
+    width: 20rem;
+    align-self: end;
+}
+aside h2 {
+    align-self: end;
+    justify-self: flex-start;
+}
+aside div {
+    width: 600px;
+    color: red;
+    align-self: flex-start;
+}
 nav {
     color: rgb(96, 143, 158);
     display: flex;
@@ -40,10 +69,12 @@ nav {
     border: 1px solid rgb(165, 190, 167);
 }
 a {
-    color: rgb(96, 143, 143);
+    width: fit-content;
+    font-size: larger;
+    color: rgb(0, 0, 0);
 }
 a:hover {
-    color: rgb(6, 84, 148);
+    color: rgb(91, 181, 255);
 }
 img {
     transition: box-shadow 0.25s ease;
